@@ -51,13 +51,12 @@ C_Programming_081BCT/
 │-- report/
 │   ├── team_project_report.pdf
 │-- slide/
-│   ├── team_presentation.pptx
+│   ├── team_presentation.pdf
 ```
 
 ## ❗ Important Notes
 - Each team should submit only **one PR** per group.
 - The **branch name must follow the roll number format** to avoid confusion.
-- Keep your repository **private** until the submission deadline.
 - Ensure your code is well-documented and formatted correctly.
 
 For any questions, contact the instructor. Happy coding! 🚀
