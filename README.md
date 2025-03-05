@@ -23,11 +23,11 @@ Welcome to the **C Programming Project Repository (081BCT)**. Each team is requi
      git checkout -b 01040545
      ```
 
-4. **Make changes in your cloned repository** by adding project files inside the respective folders:
-   - `proposal/` → Your project proposal document.
-   - `code/` → Your source code files.
-   - `report/` → Your final report.
-   - `slide/` → Presentation slides.
+4. **Make changes in your cloned repository** by adding project files inside a folder named after your branch name:
+   - `01040545/proposal/` → Your project proposal document.
+   - `01040545/code/` → Your source code files.
+   - `01040545/report/` → Your final report.
+   - `01040545/slide/` → Presentation slides.
 
 5. **Commit and push changes** to the forked repository:
    ```bash
@@ -40,18 +40,19 @@ Welcome to the **C Programming Project Repository (081BCT)**. Each team is requi
 7. **Submit the PR link** to the instructor for review.
 
 ## 📂 Folder Structure
-Ensure your files are placed in the correct folders:
+Ensure your files are placed inside a folder named after your branch name:
 ```
 C_Programming_081BCT/
-│-- proposal/
-│   ├── team_project_proposal.pdf
-│-- code/
-│   ├── main.c
-│   ├── additional_files.c
-│-- report/
-│   ├── team_project_report.pdf
-│-- slide/
-│   ├── team_presentation.pdf
+│-- 01040545/
+│   │-- proposal/
+│   │   ├── team_project_proposal.pdf
+│   │-- code/
+│   │   ├── main.c
+│   │   ├── additional_files.c
+│   │-- report/
+│   │   ├── team_project_report.pdf
+│   │-- slide/
+│   │   ├── team_presentation.pdf
 ```
 
 ## ❗ Important Notes
