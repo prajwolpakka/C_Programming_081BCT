@@ -16,12 +16,17 @@ then run the game using
 
 ## Compile using make
 
-Make sure you have gnu make install on you device by typing
+Make sure you have gnu make install on you device 
+Open a terminal and type
 
 ```
 make --version
 ```
-if u don't have gnu make installed install it
+if make is installed then the version number should be echoed in the terminal
+```
+GNU Make 4.4.1
+```
+if u don't have gnu make installed install it then type the following in the terminal
 
 ### Windows
 ```
