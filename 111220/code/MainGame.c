@@ -28,7 +28,7 @@ typedef struct {
 #define COOLDOWN_TIME 2.0f 
 #define GRAVITY 50.0f 
 #define JUMP_FORCE 20.0f 
-#define MAX_LIVES 1
+#define MAX_LIVES 10
 #define AIZEN_PROJECTILE_COOLDOWN 5.0f
 
 int main() 
