@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 typedef struct {
-    Vector2 position;
+    Vector2 position;//A datatype in raylib
     bool isActive;
     bool isFacingLeft;
     float lifetime; 
@@ -24,19 +24,20 @@ typedef struct {
 #define MAX_ENEMIES 100
 #define SCREEN_WIDTH 1900
 #define SCREEN_HEIGHT 1100
-#define PROJECTILE_LIFETIME 2.0f  // Increased lifetime
+#define PROJECTILE_LIFETIME 2.0f  
 #define COOLDOWN_TIME 2.0f 
 #define GRAVITY 50.0f 
 #define JUMP_FORCE 20.0f 
 #define MAX_LIVES 10
 #define AIZEN_PROJECTILE_COOLDOWN 5.0f
 
-int main(void) 
+int main() 
 {
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "ALL AS PLANNED");
     InitAudioDevice();
     
     Music BgMusic = LoadMusicStream("MusicFolder/BleachSong.mp3");
+    SetMusicVolume(BgMusic,0.3f);
     Music BossMusic = LoadMusicStream("MusicFolder/BossTheme.mp3");
     Sound Yokoso = LoadSound("MusicFolder/Yokoso.mp3");
     Sound Attack = LoadSound("MusicFolder/AttackSound.mp3");
@@ -48,8 +49,6 @@ int main(void)
     Sound Ouch2 = LoadSound("MusicFolder/ouch2.mp3");
     Sound Ouch3 = LoadSound("MusicFolder/ouch3.mp3");
     Sound Ouch4 = LoadSound("MusicFolder/ouch4.mp3");
-
-
     Sound IchigoVoice = LoadSound("MusicFolder/IchigoVoice.mp3");
     SetSoundVolume(IchigoVoice, 4);
     SetSoundVolume(FlashStep,10);
@@ -57,7 +56,7 @@ int main(void)
     int soundPicker = 0;
     int ScreamPicker = 0;
 
-    SetMusicVolume(BgMusic,0.3f);
+    
     PlayMusicStream(BgMusic);
     
     Rectangle Ground = {0, 900, SCREEN_WIDTH, SCREEN_HEIGHT / 3};
@@ -78,10 +77,8 @@ int main(void)
 
     Ichigo.width = 180;
     Ichigo.height = 150;
-    EnemyTexture.width = Ichigo.width / 2;
-    EnemyTexture.height = Ichigo.height / 2;
     float IchigoSpeed = 10;
-    Vector2 IchigoPos = {50, Ground.y - Ichigo.height};
+    Vector2 IchigoPos = {50, Ground.y - Ichigo.height - 300};
     bool IsFacingLeft = false;
     float IchigoVelocityY = 0.0f; 
     bool IsOnGround = true;
@@ -91,6 +88,10 @@ int main(void)
     float FlashStepTimer = 0;
     float FlashStepActiveTime = 0;
     float FlashStepCoolingDown = 0;
+    Projectile getsuga = {0};
+
+    EnemyTexture.width = Ichigo.width / 2;
+    EnemyTexture.height = Ichigo.height / 2;
 
     Aizen.height = 200;
     Aizen.width = 300;
@@ -98,15 +99,12 @@ int main(void)
     bool AizenActive = false;
     float AizenHealth = 10000.0f;
     float AizenAttackCooldown = 0.0f;
-    
     bool AizenFinalBossActive = false;
     float AizenHealthBoss = 50000;
-    
-    Projectile aizenProjectile = {0}; 
-     
+    Projectile aizenProjectile = {0};  
     bool gameOver = false;  
 
-    Projectile getsuga = {0};
+    
     
     Enemy enemies[MAX_ENEMIES] = {0};
     int enemyCount = 0;
@@ -572,9 +570,6 @@ int main(void)
                                      (Vector2){0, 0}, 0.0f, WHITE);
                     } 
             }
-            
-            
-           
             
             
             Rectangle start = {0, 0, (IsFacingLeft ? -Ichigo.width : Ichigo.width), Ichigo.height};
