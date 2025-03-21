@@ -21,7 +21,7 @@ void scoreboard(int p[20], int n);
 int main()
 {
 
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+   
     int a[20]; 
     static int b[20],z[20],l;
     int t, q, n, x;
@@ -37,7 +37,7 @@ x:
      }
     if (n < 2)
     {
-        printf("enter the no of palyer above 2\n");
+        printf("enter the no of player above 2\n");
         goto x;
     }
     else{
@@ -50,7 +50,8 @@ x:
     }
     for (i = 0; i < n; i++)
     {
-        printf("enter the name of player p[%d]\n", i + 1);
+        printf("\033[1;35m enter the name of player p[%d]  \033[0m\n", i+1);
+        
         scanf("%s", c[i]);
     }
     do
@@ -77,8 +78,8 @@ x:
 
             }//if any player reach to 100 then we have to out them from game
            
-            SetConsoleTextAttribute(hConsole, 1);
-            printf("%s your turn \n", c[i]);
+            printf("\033[1;36m %s your turn  \033[0m\n", c[i]);
+            
             system("pause");
             t = disc();          
             printf("you rolled %d \n", t);
@@ -100,7 +101,7 @@ x:
             }
             if (a[i] == 45)
             {
-                printf("\033[1;32m %s yeah lucky person you climbed up to 67 \033[0m\n", c[i]); // Green
+                printf("\033[1;32m %s yeah lucky person you climbed up to 68 \033[0m\n", c[i]); // Green
                 a[i] = 67;
             }
             if (a[i] == 76)
@@ -233,52 +234,52 @@ void scoreboard(int p[20], int n)
                 // printing the different ladder(Green)
                 if (pos == 45 || pos == 67)
                 {
-                    printf("\033[1;31m|L1|\033[0m\t");
+                    printf("\033[1;32m|L1|\033[0m\t");
                 }
                 else if (pos == 76 || pos == 87)
                 {
-                    printf("\033[1;31m|L2|\033[0m\t");
+                    printf("\033[1;32m|L2|\033[0m\t");
                 }
                 else if (pos == 12 || pos == 34)
                 {
-                    printf("\033[1;31m|L3|\033[0m\t");
+                    printf("\033[1;32m|L3|\033[0m\t");
                 }
-                else if (pos == 56 || pos == 67)
+                else if (pos == 56 || pos == 68)
                 {
-                    printf("\033[1;31m|L4|\033[0m\t");
+                    printf("\033[1;32m|L4|\033[0m\t");
                 }
-                else if (pos == 85 || pos == 97)
+                else if (pos == 85 || pos == 91)
                 {
-                    printf("\033[1;31m|L5|\033[0m\t");
+                    printf("\033[1;32m|L5|\033[0m\t");
                 }
                 else if (pos == 24 || pos == 46)
                 {
-                    printf("\033[1;31m|L6|\033[0m\t");
+                    printf("\033[1;32m|L6|\033[0m\t");
                 }
                 // printing the different snake(red)
                 else if (pos == 99 || pos == 84)
                 {
-                    printf("\033[1;32m|S1|\033[0m\t");
+                    printf("\033[1;31m|S1|\033[0m\t");
                 }
                 else if (pos == 78 || pos == 64)
                 {
-                    printf("\033[1;32m|S2|\033[0m\t");
+                    printf("\033[1;31m|S2|\033[0m\t");
                 }
                 else if (pos == 35 || pos == 18)
                 {
-                    printf("\033[1;32m|S3|\033[0m\t");
+                    printf("\033[1;31m|S3|\033[0m\t");
                 }
                 else if (pos == 49 || pos == 28)
                 {
-                    printf("\033[1;32m|S4|\033[0m\t");
+                    printf("\033[1;31m|S4|\033[0m\t");
                 }
                 else if (pos == 24 || pos == 8)
                 {
-                    printf("\033[1;32m|S5|\033[0m\t");
+                    printf("\033[1;31m|S5|\033[0m\t");
                 }
                 else if (pos == 18 || pos == 4)
                 {
-                    printf("\033[1;32m|S6|\033[0m\t");
+                    printf("\033[1;31m|S6|\033[0m\t");
                 }
 
                 else
