@@ -1,0 +1,30 @@
+Page 1:
+- Roll number should be in ascending order
+
+Page 2:
+- use paragraph alignment
+- include Keywords
+
+Page 3:
+- autogenerate table of contents
+
+Page 4:
+- Should be in alphabetical order
+
+Page 5:
+- Keep line spacing consistent
+- Autogenerate it
+
+Page 6:
+- Only use Black text
+
+Page 8, 11, 12:
+- Start new topic in new Page
+
+Page 13:
+- use gantt chart for time estimation
+- Start new topic in new Page
+
+Page 14:
+- Start new topic in new Page
+

@@ -1,0 +1,40 @@
+Page 1:
+- Remove the placeholder text
+- Sort roll number in ascending order
+- There are two logo in same page
+
+Page 5:
+- Use paragraph alignment
+
+Page 6:
+- Too much top margin
+- keywords should be in alphabetical order
+
+Page 7:
+- Too much top margin
+
+Page 8, 9:
+- Error in TOC
+- List of Figures should be in a separate page
+- List of Figures and list of tables should be auto generated
+
+Page 16:
+- Too much top margin
+
+Page 18:
+- Start new topic in new page
+
+Page 20:
+- Too much top margin
+
+Page 26:
+- Start new topic in new page
+
+Page 31, 32:
+- Start new topic in new page
+
+Page 34:
+- Too much top margin
+
+Page 35:
+- Redundant empty page

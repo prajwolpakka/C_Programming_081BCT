@@ -1,0 +1,31 @@
+- Use paragraph alignment
+- Keep the top margin across all pages same
+- Add Keywords in Abstract
+- Autogenerate Table of contents, don't type this
+
+Page 2:
+- Start new topic in different page
+
+Page 3:
+- Use same font throughout the report
+
+Page 4:
+- Start new topic in different page
+
+Page 5:
+- The text in the image are too small
+- Start new topic in different page
+
+Page 14:
+- Start new topic in different page
+
+Page 15:
+- Start new topic in different page
+
+Page 16:
+- Start new topic in different page
+
+Page 17:
+- Start new topic in different page
+
+

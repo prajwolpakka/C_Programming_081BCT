@@ -1,0 +1,12 @@
+Page 2:
+- Include Keywords
+
+Page 3:
+- Autogenerate TOC, don't type this
+
+Page 4:
+- Should be in ascending order
+
+Page 6:
+- Spelling Mistakes
+

@@ -1,0 +1,19 @@
+Page 1:
+- Roll number should be in ascending order
+- Remove the helper text
+
+Page 2, 3, 6:
+- Roll number should be in ascending order
+
+Page 7:
+- Include keywords
+
+Page 10:
+- Add List of Figures
+- Autogenerate it 
+
+Page 13:
+- Start new topic in new Page
+
+Page 21:
+- Don't add redundant empty page

@@ -1,0 +1,12 @@
+Page 2:
+- No need for acknowledgement in proposal
+
+Page 3:
+- keywords should be in alphabetical order
+
+Page 4:
+- TOC should be auto generated and clickable
+
+Page 6:
+- Should be auto generated and clickable
+

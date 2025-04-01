@@ -1,0 +1,11 @@
+Page 6:
+- Include Keywords
+
+Page 9:
+- Sort in ascending order
+
+Page 10:
+- Autogenerate List of Figures, don't type
+
+Page 19:
+- Documentation should be throughout the project period

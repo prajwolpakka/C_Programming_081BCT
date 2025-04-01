@@ -1,0 +1,23 @@
+- Follow guideline for proper line spacing
+
+Page 1:
+- Roll number should be in ascending order
+
+Page 2:
+- Use paragraph alignment
+- Add keywords
+
+Page 3:
+- Autogenerate TOC, don't type
+
+Page 5:
+- Autogenerate List of Figures
+
+Page 6:
+- Sort alphabetically
+
+Page 8:
+- Start new topic in new page, or reduce the previous page content
+
+Page 13:
+- Use white background for gantt chart

@@ -1,0 +1,20 @@
+Page 2:
+- Use paragraph alignment
+- Add Keywords
+
+Page 3:
+- Incorrect Table of Content
+- Autogenerate TOC, don't type
+
+Page 4:
+- Autogenerate Table of Figures
+
+Page 5:
+- Sort alphabetically
+
+Page 11, 12, 19:
+- Inconsistent content margin
+
+Page 20:
+- Different font size.
+- Use paragraph alignment

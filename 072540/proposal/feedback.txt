@@ -1,0 +1,18 @@
+Page 1:
+- Roll number in ascending order
+
+Page 2:
+- No need for Acknowledgement in Proposal
+
+Page 3:
+- Use paragraph alignment
+- Include Keywords
+
+Page 4:
+- Autogenerate TOC, don't type
+
+Page 5-14:
+- Paragraph alignment
+
+Page 7:
+- Don't use multiple fonts

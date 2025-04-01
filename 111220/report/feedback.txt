@@ -1,0 +1,15 @@
+Page 1, 5:
+- Roll number should be in ascending order
+
+Page 3:
+- No need to add external, or project coordinator if not there
+- Incorrect name for project supervisor, and HOD
+
+Page 6:
+- Make abstract short, generally should be one paragraph.
+- Include keywords
+
+Page 11:
+- Insufficient Literature Review, research if a related project is done in the past, and include them in this section.
+
+

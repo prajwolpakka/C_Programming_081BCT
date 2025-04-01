@@ -1,0 +1,16 @@
+Page 1:
+- Random leter kK in the Page
+- Sort roll number in ascending order
+
+Page 2, 5:
+- Sort roll number in ascending order
+
+Page 10:
+- Autogenerate List of Figures, don't type
+
+Page 11:
+- Inconsistent top margin
+- Sort alphabetically
+
+Page 16, 24:
+- Start new topic in new page
